@@ -33,6 +33,7 @@ public class StroboNum {
             }
 
             else{
+                ans = false;
                 // System.out.println("false");
                 break;
             }
@@ -42,6 +43,8 @@ public class StroboNum {
         if( ans == false){
             System.out.println("false");
         }
-        else{}
+        else{
+            System.out.println("true");
+        }
     }
 }
